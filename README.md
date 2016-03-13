@@ -13,7 +13,7 @@ export BUGZILLA_HOME
 sudo cp -r target/Sknil $BUGZILLA_HOME/skins/contrib
 ```
 3. Restart your Bugzilla server.
-4. Select the `Sknil` theme from the `Preferences > General Preferences page` (`Bugzilla's general appearance (skin)`).
+4. Select the `Sknil` theme from the `Preferences > General Preferences` page (`Bugzilla's general appearance (skin)`).
 
 ## Compliance
 
@@ -32,13 +32,13 @@ Not yet available.
 ```sh
 stylus src/*.styl -o target/Sknil/
 ```
-Pull requests allowed and encouraged!
+Push requests allowed and encouraged!
 
 ## Change log
 
 ### 1.0.0, 2016 03 13
  First release.
 
- ## Copyright
+## Copyright
 
  (c) 2016, B. Djoudi
