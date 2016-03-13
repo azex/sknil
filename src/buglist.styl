@@ -1,0 +1,68 @@
+/*! This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ */
+
+@require "core/index"
+
+table.bz_buglist td,
+table.bz_buglist th
+  border-collapse: collapse
+  font-family: fonts
+  font-size: 10pt
+
+.bz_row_even
+  border-top: thin solid #9eadc1
+  border-bottom: thin solid #9eadc0
+  background: -moz-linear-gradient(left, c1 0%, c2 12%, c3 31%, c4 51%, c5 97%, c5 100%)
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, c1), color-stop(12%, c2), color-stop(31%, c3), color-stop(51%, c4), color-stop(97%, c5), color-stop(100%, c5))
+  background: -webkit-linear-gradient(left, c1 0%, c2 12%, c3 31%, c4 51%, c5 97%, c5 100%)
+  background: -o-linear-gradient(left, c1 0%, c2 12%, c3 31%, c4 51%, c5 97%, c5 100%)
+  background: -ms-linear-gradient(left, c1 0%, c2 12%, c3 31%, c4 51%, c5 97%, c5 100%)
+  background: linear-gradient(to right, c1 0%, c2 12%, c3 31%, c4 51%, c5 97%, c5 100%)
+
+.bz_row_odd
+  border-top: 1px solid #9ebdd1
+  border-bottom: 1px solid #9ebdd0
+  background: -moz-linear-gradient(left, c6 0%, c7 23%, c8 89%, c9 100%)
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, c6), color-stop(23%, c7), color-stop(89%, c8), color-stop(100%, c9))
+  background: -webkit-linear-gradient(left, c6 0%, c7 23%, c8 89%, c9 100%)
+  background: -o-linear-gradient(left, c6 0%, c7 23%, c8 89%, c9 100%)
+  background: -ms-linear-gradient(left, c6 0%, c7 23%, c8 89%, c9 100%)
+  background: linear-gradient(to right, c6 0%, c7 23%, c8 89%, c9 100%)
+
+tr.bz_bugitem:hover
+  background: -moz-linear-gradient(left, c10 0%, c11 51%, c10 100%)
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, c10), color-stop(51%, c11), color-stop(100%, c10))
+  background: -webkit-linear-gradient(left, c10 0%, c11 51%, c10 100%)
+  background: -o-linear-gradient(left, c10 0%, c11 51%, c10 100%)
+  background: -ms-linear-gradient(left, c10 0%, c11 51%, c10 100%)
+  background: linear-gradient(to right, c10 0%, c11 51%, c10 100%)
+
+tr.bz_time_summary_line, tr.bz_buglist_header
+  background: -moz-linear-gradient(left, c12 0%, c13 31%, c14 73%, c15 100%)
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, c12), color-stop(31%, c13), color-stop(73%, c14), color-stop(100%, c15))
+  background: -webkit-linear-gradient(left, c12 0%, c13 31%, c14 73%, c15 100%)
+  background: -o-linear-gradient(left, c12 0%, c13 31%, c14 73%, c15 100%)
+  background: -ms-linear-gradient(left, c12 0%, c13 31%, c14 73%, c15 100%)
+  background: linear-gradient(to right, c12 0%, c13 31%, c14 73%, c15 100%)
+
+borders()
+  border-top: 1px solid #BB9BB1
+  border-bottom: 1px solid #BB9BB1
+
+td.bz_total
+  font-family: fonts
+  font-size: 11pt
+  text-align: right
+  borders()
+
+.bz_buglist_header th,
+tr
+  borders()
+
+td.first-child
+  gradient2(c16, c17)

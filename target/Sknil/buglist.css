@@ -1,0 +1,70 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ */
+table.bz_buglist td,
+table.bz_buglist th {
+  border-collapse: collapse;
+  font-family: Candara, Verdana, Arial;
+  font-size: 10pt;
+}
+.bz_row_even {
+  border-top: thin solid #9eadc1;
+  border-bottom: thin solid #9eadc0;
+  background: -moz-linear-gradient(left, #bcc0f2 0%, rgba(188,192,242,0.92) 12%, rgba(213,215,240,0.79) 31%, rgba(239,240,238,0.81) 51%, rgba(190,167,201,0.85) 97%, rgba(190,167,201,0.85) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #bcc0f2), color-stop(12%, rgba(188,192,242,0.92)), color-stop(31%, rgba(213,215,240,0.79)), color-stop(51%, rgba(239,240,238,0.81)), color-stop(97%, rgba(190,167,201,0.85)), color-stop(100%, rgba(190,167,201,0.85)));
+  background: -webkit-linear-gradient(left, #bcc0f2 0%, rgba(188,192,242,0.92) 12%, rgba(213,215,240,0.79) 31%, rgba(239,240,238,0.81) 51%, rgba(190,167,201,0.85) 97%, rgba(190,167,201,0.85) 100%);
+  background: -o-linear-gradient(left, #bcc0f2 0%, rgba(188,192,242,0.92) 12%, rgba(213,215,240,0.79) 31%, rgba(239,240,238,0.81) 51%, rgba(190,167,201,0.85) 97%, rgba(190,167,201,0.85) 100%);
+  background: -ms-linear-gradient(left, #bcc0f2 0%, rgba(188,192,242,0.92) 12%, rgba(213,215,240,0.79) 31%, rgba(239,240,238,0.81) 51%, rgba(190,167,201,0.85) 97%, rgba(190,167,201,0.85) 100%);
+  background: linear-gradient(to right, #bcc0f2 0%, rgba(188,192,242,0.92) 12%, rgba(213,215,240,0.79) 31%, rgba(239,240,238,0.81) 51%, rgba(190,167,201,0.85) 97%, rgba(190,167,201,0.85) 100%);
+}
+.bz_row_odd {
+  border-top: 1px solid #9ebdd1;
+  border-bottom: 1px solid #9ebdd0;
+  background: -moz-linear-gradient(left, #dde1e1 0%, rgba(225,231,237,0.94) 23%, rgba(246,248,250,0.77) 89%, #f9fbfc 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #dde1e1), color-stop(23%, rgba(225,231,237,0.94)), color-stop(89%, rgba(246,248,250,0.77)), color-stop(100%, #f9fbfc));
+  background: -webkit-linear-gradient(left, #dde1e1 0%, rgba(225,231,237,0.94) 23%, rgba(246,248,250,0.77) 89%, #f9fbfc 100%);
+  background: -o-linear-gradient(left, #dde1e1 0%, rgba(225,231,237,0.94) 23%, rgba(246,248,250,0.77) 89%, #f9fbfc 100%);
+  background: -ms-linear-gradient(left, #dde1e1 0%, rgba(225,231,237,0.94) 23%, rgba(246,248,250,0.77) 89%, #f9fbfc 100%);
+  background: linear-gradient(to right, #dde1e1 0%, rgba(225,231,237,0.94) 23%, rgba(246,248,250,0.77) 89%, #f9fbfc 100%);
+}
+tr.bz_bugitem:hover {
+  background: -moz-linear-gradient(left, #ffff87 0%, rgba(255,255,135,0.63) 51%, #ffff87 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ffff87), color-stop(51%, rgba(255,255,135,0.63)), color-stop(100%, #ffff87));
+  background: -webkit-linear-gradient(left, #ffff87 0%, rgba(255,255,135,0.63) 51%, #ffff87 100%);
+  background: -o-linear-gradient(left, #ffff87 0%, rgba(255,255,135,0.63) 51%, #ffff87 100%);
+  background: -ms-linear-gradient(left, #ffff87 0%, rgba(255,255,135,0.63) 51%, #ffff87 100%);
+  background: linear-gradient(to right, #ffff87 0%, rgba(255,255,135,0.63) 51%, #ffff87 100%);
+}
+tr.bz_time_summary_line,
+tr.bz_buglist_header {
+  background: -moz-linear-gradient(left, rgba(235,241,246,0.69) 0%, rgba(239,219,252,0.69) 31%, rgba(185,214,234,0.7) 73%, rgba(213,235,251,0.7) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(235,241,246,0.69)), color-stop(31%, rgba(239,219,252,0.69)), color-stop(73%, rgba(185,214,234,0.7)), color-stop(100%, rgba(213,235,251,0.7)));
+  background: -webkit-linear-gradient(left, rgba(235,241,246,0.69) 0%, rgba(239,219,252,0.69) 31%, rgba(185,214,234,0.7) 73%, rgba(213,235,251,0.7) 100%);
+  background: -o-linear-gradient(left, rgba(235,241,246,0.69) 0%, rgba(239,219,252,0.69) 31%, rgba(185,214,234,0.7) 73%, rgba(213,235,251,0.7) 100%);
+  background: -ms-linear-gradient(left, rgba(235,241,246,0.69) 0%, rgba(239,219,252,0.69) 31%, rgba(185,214,234,0.7) 73%, rgba(213,235,251,0.7) 100%);
+  background: linear-gradient(to right, rgba(235,241,246,0.69) 0%, rgba(239,219,252,0.69) 31%, rgba(185,214,234,0.7) 73%, rgba(213,235,251,0.7) 100%);
+}
+td.bz_total {
+  font-family: Candara, Verdana, Arial;
+  font-size: 11pt;
+  text-align: right;
+  border-top: 1px solid #bb9bb1;
+  border-bottom: 1px solid #bb9bb1;
+}
+.bz_buglist_header th,
+tr {
+  border-top: 1px solid #bb9bb1;
+  border-bottom: 1px solid #bb9bb1;
+}
+td.first-child {
+  background: -moz-linear-gradient(left, rgba(215,174,239,0.31) 0%, rgba(136,201,184,0) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(215,174,239,0.31)), color-stop(100%, rgba(136,201,184,0)));
+  background: -webkit-linear-gradient(left, rgba(215,174,239,0.31) 0%, rgba(136,201,184,0) 100%);
+  background: -o-linear-gradient(left, rgba(215,174,239,0.31) 0%, rgba(136,201,184,0) 100%);
+  background: -ms-linear-gradient(left, rgba(215,174,239,0.31) 0%, rgba(136,201,184,0) 100%);
+  background: linear-gradient(to right, rgba(215,174,239,0.31) 0%, rgba(136,201,184,0) 100%);
+}

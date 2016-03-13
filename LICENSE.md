@@ -258,10 +258,10 @@ end user license agreements (excluding distributors and resellers) which
 have been validly granted by You or Your distributors under this License
 prior to termination shall survive termination.
 
+6. Disclaimer of Warranty
+--------------
+```
 ************************************************************************
-*                                                                      *
-*  6. Disclaimer of Warranty                                           *
-*  -------------------------                                           *
 *                                                                      *
 *  Covered Software is provided under this License on an "as is"       *
 *  basis, without warranty of any kind, either expressed, implied, or  *
@@ -276,11 +276,11 @@ prior to termination shall survive termination.
 *  authorized under this License except under this disclaimer.         *
 *                                                                      *
 ************************************************************************
-
+```
+7. Limitation of Liability
+--------------
+```
 ************************************************************************
-*                                                                      *
-*  7. Limitation of Liability                                          *
-*  --------------------------                                          *
 *                                                                      *
 *  Under no circumstances and under no legal theory, whether tort      *
 *  (including negligence), contract, or otherwise, shall any           *
@@ -299,6 +299,7 @@ prior to termination shall survive termination.
 *  limitation may not apply to You.                                    *
 *                                                                      *
 ************************************************************************
+```
 
 8. Litigation
 -------------

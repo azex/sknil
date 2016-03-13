@@ -1,0 +1,21 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ */
+.bz_alias_short_desc_container {
+  margin: 8px 0px;
+  padding: 0.3em;
+  border-radius: 0.5em 0 0.5em 0;
+  font-size: 130%;
+  font-weight: bold;
+  font-family: Candara, Verdana, Arial;
+  background: -moz-linear-gradient(left, rgba(255,255,136,0.85) 0%, rgba(255,249,204,0.37) 48%, rgba(255,247,224,0.37) 62%, rgba(255,247,219,0.37) 64%, rgba(255,255,136,0.85) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,136,0.85)), color-stop(48%, rgba(255,249,204,0.37)), color-stop(62%, rgba(255,247,224,0.37)), color-stop(64%, rgba(255,247,219,0.37)), color-stop(100%, rgba(255,255,136,0.85)));
+  background: -webkit-linear-gradient(left, rgba(255,255,136,0.85) 0%, rgba(255,249,204,0.37) 48%, rgba(255,247,224,0.37) 62%, rgba(255,247,219,0.37) 64%, rgba(255,255,136,0.85) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,136,0.85) 0%, rgba(255,249,204,0.37) 48%, rgba(255,247,224,0.37) 62%, rgba(255,247,219,0.37) 64%, rgba(255,255,136,0.85) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,136,0.85) 0%, rgba(255,249,204,0.37) 48%, rgba(255,247,224,0.37) 62%, rgba(255,247,219,0.37) 64%, rgba(255,255,136,0.85) 100%);
+  background: linear-gradient(to right, rgba(255,255,136,0.85) 0%, rgba(255,249,204,0.37) 48%, rgba(255,247,224,0.37) 62%, rgba(255,247,219,0.37) 64%, rgba(255,255,136,0.85) 100%);
+}

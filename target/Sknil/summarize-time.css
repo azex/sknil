@@ -1,0 +1,28 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ */
+.number .bug_header,
+.number .bug_header2 {
+  background: -moz-linear-gradient(left, #d7ddb5 0%, rgba(214,194,240,0.43) 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #d7ddb5), color-stop(100%, rgba(214,194,240,0.43)));
+  background: -webkit-linear-gradient(left, #d7ddb5 0%, rgba(214,194,240,0.43) 100%);
+  background: -o-linear-gradient(left, #d7ddb5 0%, rgba(214,194,240,0.43) 100%);
+  background: -ms-linear-gradient(left, #d7ddb5 0%, rgba(214,194,240,0.43) 100%);
+  background: linear-gradient(to right, #d7ddb5 0%, rgba(214,194,240,0.43) 100%);
+}
+tr.section_total {
+  color: #122112;
+  border-top: 2px #811;
+  border-bottom: 2px #811;
+  background: #ecdcdc;
+  background: -moz-linear-gradient(left, #ecdcdc 0%, #d3b1b1 10%, #d1afad 73%, #dec6c6 83%, #dbbfbf 94%, #d6b6b6 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ecdcdc), color-stop(10%, #d3b1b1), color-stop(73%, #d1afad), color-stop(83%, #dec6c6), color-stop(94%, #dbbfbf), color-stop(100%, #d6b6b6));
+  background: -webkit-linear-gradient(left, #ecdcdc 0%, #d3b1b1 10%, #d1afad 73%, #dec6c6 83%, #dbbfbf 94%, #d6b6b6 100%);
+  background: -o-linear-gradient(left, #ecdcdc 0%, #d3b1b1 10%, #d1afad 73%, #dec6c6 83%, #dbbfbf 94%, #d6b6b6 100%);
+  background: -ms-linear-gradient(left, #ecdcdc 0%, #d3b1b1 10%, #d1afad 73%, #dec6c6 83%, #dbbfbf 94%, #d6b6b6 100%);
+  background: linear-gradient(to right, #ecdcdc 0%, #d3b1b1 10%, #d1afad 73%, #dec6c6 83%, #dbbfbf 94%, #d6b6b6 100%);
+}
