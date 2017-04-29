@@ -17,9 +17,7 @@ sudo cp -r target/Sknil $BUGZILLA_HOME/skins/contrib
 
 ## Compliance
 
-Tested only with Bugzilla 4.4.10 under Linux distributions.
-
-Should work for 4.4.11 (_not tested_).
+Tested with Bugzilla 4.4.10 and 5.0.3 under Linux distributions.
 
 ## Screenshot
 
@@ -41,4 +39,4 @@ Push requests allowed and encouraged!
 
 ## Copyright
 
- (c) 2016, B. Djoudi
+ (c) 2016, 2017, B. Djoudi
