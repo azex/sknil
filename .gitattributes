@@ -1,2 +1,2 @@
-target/Sknil/* linguist-vendored
-screenshots/* linguist-vendored
+target/Sknil/* linguist-vendored=false
+screenshots/* linguist-vendored=false
