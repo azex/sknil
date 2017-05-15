@@ -37,6 +37,9 @@ Push requests allowed and encouraged!
 ### 1.0.0, 2016 03 13
  First release.
 
+ ### 1.0.1, 2017 05 15
+  Git attributes.
+
 ## Copyright
 
- (c) 2016, 2017, B. Djoudi
+ (c) 2016-2017, B. Djoudi
