@@ -19,9 +19,9 @@ sudo cp -r target/Sknil $BUGZILLA_HOME/skins/contrib
 
 Tested with Bugzilla 4.4.10 and 5.0.3 under Linux distributions.
 
-## Screenshot
+## Screenshots
 
-Not yet available.
+![Report](/screenshots/report.png)
 
 ## Build (_for developers only_)
 
@@ -37,7 +37,7 @@ Push requests allowed and encouraged!
 ### 1.0.0, 2016 03 13
  First release.
 
- ### 1.0.1, 2017 05 15
+### 1.0.1, 2017 05 15
   Git attributes.
 
 ## Copyright
