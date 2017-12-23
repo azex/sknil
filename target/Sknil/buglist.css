@@ -10,6 +10,7 @@ table.bz_buglist th {
   border-collapse: collapse;
   font-family: Candara, Verdana, Arial;
   font-size: 10pt;
+  padding: 0.2em;
 }
 .bz_row_even {
   border-top: thin solid #9eadc1;
