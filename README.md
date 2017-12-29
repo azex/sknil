@@ -12,8 +12,9 @@ Stylus documentation may be read at http://stylus-lang.com/
 export BUGZILLA_HOME
 sudo cp -r target/Sknil $BUGZILLA_HOME/skins/contrib
 ```
-3. Restart your Bugzilla server.
-4. Select the `Sknil` theme from the `Preferences > General Preferences` page (`Bugzilla's general appearance (skin)`).
+3. Run `checksetup.pl` (Bugzilla script).
+4. Restart your Bugzilla server.
+5. Select the `Sknil` theme from the `Preferences > General Preferences` page (`Bugzilla's general appearance (skin)`).
 
 ## Compliance
 
@@ -38,7 +39,10 @@ Push requests allowed and encouraged!
  First release.
 
 ### 1.0.1, 2017 05 15
-  Git attributes.
+ Git attributes.
+
+### 1.0.2, 2017 12 28
+ Enhancements.
 
 ## Copyright
 

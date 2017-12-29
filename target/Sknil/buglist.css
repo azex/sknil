@@ -8,9 +8,9 @@
 table.bz_buglist td,
 table.bz_buglist th {
   border-collapse: collapse;
-  font-family: Candara, Verdana, Arial;
+  font-family: 'Candara', 'Verdana', 'Arial', sans-serif;
   font-size: 10pt;
-  padding: 0.2em;
+  padding: 3px;
 }
 .bz_row_even {
   border-top: thin solid #9eadc1;
@@ -50,7 +50,7 @@ tr.bz_buglist_header {
   background: linear-gradient(to right, rgba(235,241,246,0.69) 0%, rgba(239,219,252,0.69) 31%, rgba(185,214,234,0.7) 73%, rgba(213,235,251,0.7) 100%);
 }
 td.bz_total {
-  font-family: Candara, Verdana, Arial;
+  font-family: 'Candara', 'Verdana', 'Arial', sans-serif;
   font-size: 11pt;
   text-align: right;
   border-top: 1px solid #bb9bb1;

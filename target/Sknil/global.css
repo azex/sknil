@@ -7,7 +7,7 @@
  */
 body {
   background: #c8c8c8;
-  font-family: Candara, Verdana, Arial;
+  font-family: 'Candara', 'Verdana', 'Arial', sans-serif;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -23,7 +23,7 @@ body {
   background: linear-gradient(45deg, rgba(122,128,28,0.85) 0%, rgba(122,128,28,0.85) 3%, rgba(98,104,92,0.81) 49%, rgba(82,98,109,0.79) 69%, rgba(65,91,127,0.93) 90%, #415b7f 100%);
 }
 #titles p {
-  font-family: Neuropol;
+  font-family: 'Neuropol';
   font-size: 16pt;
   text-align: center;
   border-radius: 0 0 8px 8px;
@@ -122,7 +122,7 @@ hr {
 }
 #comments td {
   padding-top: 2px;
-  font-family: Candara, Verdana, Arial;
+  font-family: 'Candara', 'Verdana', 'Arial', sans-serif;
 }
 .reply-button a {
   padding-left: 2px;
@@ -141,7 +141,7 @@ hr {
   border-color: #c8c8ba;
   border-radius: 0 0 10px 10px;
   padding: 5px;
-  font-family: Candara, Verdana, Arial;
+  font-family: 'Candara', 'Verdana', 'Arial', sans-serif;
   font-size: 9pt;
   width: 800pt;
 }
@@ -159,12 +159,17 @@ hr {
 }
 .bz_comment_user {
   margin-left: 0;
-  font-family: Candara, Verdana, Arial;
+  font-family: 'Candara', 'Verdana', 'Arial', sans-serif;
 }
 .bz_comment.bz_private {
   background-color: #f0e8e8;
   border-color: #f8c8ba;
-  font-family: Candara, Verdana, Arial;
+  font-family: 'Candara', 'Verdana', 'Arial', sans-serif;
+}
+.bz_closed,
+.bz_CLOSED td {
+  background-color: #fafad2;
+  text-decoration: none;
 }
 .comment_rule {
   display: none;
@@ -193,6 +198,35 @@ hr {
 }
 .separator {
   color: #ccc;
+}
+.ASSIGNED {
+  color: #006400;
+}
+.FIXED {
+  color: #000080;
+}
+.INVALID {
+  color: #dc143c;
+}
+.P1 {
+  background-color: #ee82ee;
+  color: #000;
+}
+.P2 {
+  background-color: #ffa500;
+  color: #000;
+}
+.P3 {
+  background-color: #ff0;
+  color: #000;
+}
+.P4 {
+  background-color: #adff2f;
+  color: #000;
+}
+.P5 {
+  background-color: #0f0;
+  color: #000;
 }
 /* tabs */
 .tabbed .tabbody {
