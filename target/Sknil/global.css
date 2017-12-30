@@ -199,34 +199,73 @@ hr {
 .separator {
   color: #ccc;
 }
-.ASSIGNED {
-  color: #006400;
+.NEW {
+  color: #ff0;
+  background-color: #8b0000;
+  padding: 1px 5px;
+  font-family: monospace;
+  font-size: 8pt;
 }
+.ASSIGNED {
+  color: #228b22;
+  background-color: #d3d3d3;
+  padding: 1px 5px;
+  font-family: monospace;
+  font-size: 8pt;
+}
+.RESOLVED,
 .FIXED {
+  color: #000;
+  background-color: #90ee90;
+  padding: 1px 5px;
+  font-family: monospace;
+  font-size: 8pt;
+}
+.VERIFIED {
   color: #000080;
+  background-color: #0f0;
+  padding: 1px 5px;
+  font-family: monospace;
+  font-size: 8pt;
+}
+.CLOSED {
+  color: #000;
+  background-color: #d3d3d3;
+  padding: 1px 5px;
+  font-family: monospace;
+  font-size: 8pt;
 }
 .INVALID {
   color: #dc143c;
+  background-color: #d3d3d3;
+  padding: 1px 5px;
+  font-family: monospace;
+  font-size: 8pt;
 }
 .P1 {
   background-color: #ee82ee;
   color: #000;
+  padding: 1px 5px;
 }
 .P2 {
   background-color: #ffa500;
   color: #000;
+  padding: 1px 5px;
 }
 .P3 {
   background-color: #ff0;
   color: #000;
+  padding: 1px 5px;
 }
 .P4 {
   background-color: #adff2f;
   color: #000;
+  padding: 1px 5px;
 }
 .P5 {
   background-color: #0f0;
   color: #000;
+  padding: 1px 5px;
 }
 /* tabs */
 .tabbed .tabbody {
